@@ -1,0 +1,25 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+runs/
+report_out_synthetic/
+runs/synthetic/
+*.log
+# report_out/ 是报告交付物（TCR 图 / HITL 表 / 失败案例 / 成本表），需要入库
+# 但里面若有合成数据残留则另忽略
+report_out/*synthetic*
+!report_out/*.png
+!report_out/*.md
+*.log
+# PyCharm：只保留共享的 run configurations，其余本地工作区文件不入库
+.idea/*
+!.idea/runConfigurations/
+*.iml
+# 🚨 绝不能把 API Key 提交上去
+**/secrets.*
+.env.*
+# 🚨 上面 .env.* 会连模板一起忽略掉，必须放行（模板里没有真实 Key）
+!.env.example
+.DS_Store

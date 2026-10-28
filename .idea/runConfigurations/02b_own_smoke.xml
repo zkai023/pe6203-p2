@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="2b-自研pipeline冒烟 (OpenRouter可用, ~$0.01)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="false">
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONIOENCODING" value="utf-8" />
+    </envs>
+    <option name="SDK_HOME" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <module name="pe6203-p2" /><option name="ADD_SOURCE_ROOTS" value="true" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/run_experiments.py" />
+    <option name="PARAMETERS" value="--suite-name banking --limit-tasks 1 --limit-injections 1 --k-values 0 --policies full_approve" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <option name="EMULATE_TERMINAL" value="true" />
+    <option name="MODULE_MODE" value="false" />
+    <option name="REDIRECT_INPUT" value="false" />
+    <option name="ELEVATE" value="false" />
+    <method v="2" />
+  </configuration>
+</component>

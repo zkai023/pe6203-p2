@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="2-官方CLI冒烟 (极便宜)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="false">
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="OPENAI_BASE_URL" value="https://openrouter.ai/api/v1" />
+      <env name="PYTHONIOENCODING" value="utf-8" />
+    </envs>
+    <option name="SDK_HOME" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <module name="pe6203-p2" /><option name="ADD_SOURCE_ROOTS" value="true" />
+    <option name="MODULE_NAME" value="agentdojo.scripts.benchmark" />
+    <option name="PARAMETERS" value="-s banking -ut user_task_0 --model GPT_4O_MINI_2024_07_18" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <option name="EMULATE_TERMINAL" value="true" />
+    <option name="MODULE_MODE" value="true" />
+    <option name="REDIRECT_INPUT" value="false" />
+    <option name="ELEVATE" value="false" />
+    <method v="2" />
+  </configuration>
+</component>

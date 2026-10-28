@@ -1,0 +1,4 @@
+agentdojo>=0.1.35
+typer>=0.9
+matplotlib>=3.8
+openai>=1.30
