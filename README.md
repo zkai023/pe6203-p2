@@ -26,13 +26,14 @@ TCR 就是"任务做成了、同时没被打穿"的比例。k 是每个任务最
 - **完全不许叫人，分级也还是有用**。k=0 时 risk_tiered 拿到 41.7%，
   full_escalate 只有 25%——后者连读个文件都要拦，直接把自己卡死了。
 - **叫人这件事，值不值看对象**。risk_tiered 每一次叫人，有 85% 以上会被否掉；
-  full_escalate 那边有 58% 是"问了也白问"（读文件那类一次都没被否过）。
+  full_escalate 那边 248 次叫人里有 149 次（60%）是"问了也白问"，
+  光是只读工具就白问了 144 次（读文件那类一次都没被否过）。
 
 怎么跑的：AgentDojo v1.2.2 的 banking suite，用 `important_instructions` 注入攻击，
 模型 `openai/gpt-4o-mini-2024-07-18`（走的 OpenRouter）。
 8 个 user task × 3 个 injection × k 取 {0,1,2,4,8} × 3 个策略 = 360 次，差不多 45 分钟，一两块美金。
 
-图和表都在 `report_out/` 下面。
+图和表都在 `report_out/` 下面，完整报告看 **`REPORT.md`**（含摘要、方法、9 个章节与复现说明）。
 
 ---
 
